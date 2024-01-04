@@ -98,7 +98,7 @@ function Footer() {
         </Nav>
         
         <Copyright>
-          &copy; 2023 Rishav Chanda. All rights reserved.
+          &copy; 2023 Giridharan Paramasivam. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
