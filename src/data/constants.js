@@ -156,24 +156,54 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 0,
-    img: "https://asset.brandfetch.io/idelRQuBkX/idE9fvNUUH.jpeg?updated=1669636245098",
-    role: "Associate Software Engineer",
-    company: "Virtusa Consulting Private Ltd.,",
-    date: "Nov 2021-Jan 2023",
-    desc: "Conducted in-depth code reviews, identified performance bottlenecks, and implemented optimizations to enhance the speed and efficiency of the applications. This resulted in a 30% reduction in page load times.",
-    skills: [
-      "React JS",
-      "JavaScript",
-      "Express JS",
-      "HTML",
-      "tailwind css",
-      "bootstrap",
-      
+    "id": 1,
+    "role": "Associate Software Developer (Full Stack Developer)",
+    "company": "Virtusa Consulting Pvt. Ltd.",
+    "date": "Nov 2021 - Mar 2023",
+    "desc": [
+      "Engineered complex, modular ReactJS applications utilizing Redux for state management, React Suspense for lazy loading, and React Router for dynamic routing, reducing client-side re-rendering by 35%.",
+      "Built scalable REST APIs with Node.js and Express, implementing middleware for request validation, authentication, and error handling, while integrating with third-party services using Axios and Node-fetch.",
+      "Developed secure OAuth 2.0 and OpenID Connect compliant authentication flows, integrating multi-factor authentication (MFA) and Single Sign-On (SSO) for enterprise-level security across web applications.",
+      "Developed and deployed microservices-based architectures with Node.js and Docker, improving scalability by 30%. Leveraged Kubernetes for container orchestration and NGINX for load balancing.",
+      "Optimized database queries and schema design using MongoDB and Mongoose, enabling efficient handling of high-volume data operations and reducing query execution time by 25%.",
+      "Optimized GraphQL APIs with DataLoader to batch and cache requests, resulting in a 40% reduction in redundant database queries and improved API response times."
     ],
-    doc: "https://drive.google.com/file/d/139xdi4FfhwbQ6XDZ3P2yi2AtPeWVtCrZ/view?usp=sharing",
+    "skills": [
+      "JavaScript",
+      "ReactJS",
+      "NodeJS",
+      "Express JS",
+      "MongoDB",
+      "GraphQL",
+      "Docker",
+      "Kubernetes"
+    ]
+  },
+  {
+    "id": 2,
+    "role": "Intern (Full Stack Developer)",
+    "company": "Vinca Cyber Tech Pvt. Ltd.",
+    "date": "May 2021 - Oct 2021",
+    "desc": [
+      "Developed and maintained a scalable microservices-based architecture using Spring Boot and Spring MVC, enabling modularity and enhancing system reliability by 25%.",
+      "Designed custom security filters using Spring Security for granular RBAC with method-level protection, integrated with LDAP and OAuth2 providers for unified authentication across multiple domains.",
+      "Developed and consumed 10+ secure RESTful APIs to facilitate data exchange between services and third-party applications.",
+      "Integrated dynamic front-end interfaces using Thymeleaf, HTML, CSS, and JavaScript, improving user engagement and reducing load times by 20%.",
+      "Optimized MySQL database queries, improving data retrieval performance by 15% through advanced indexing and query tuning."
+    ],
+    "skills": [
+      "Spring Boot",
+      "Spring MVC",
+      "Thymeleaf",
+      "MySQL",
+      "Java",
+      "HTML",
+      "CSS"
+    ]
   }
-];
+]
+
+
 
 export const education = [
   {
@@ -196,46 +226,61 @@ export const education = [
   },
 ];
 
-export const projects = [
-  {
-    id: 9,
-    title: "Cover Letter Builder",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "I leveraged the ChatGPT API to develop a dynamic cover letter generator application using a tech stack centered around React.js, Node.js, HTML, CSS, and JavaScript. The application seamlessly integrates with a user's resume and job description inputs, employing sophisticated algorithms to analyze and generate personalized cover letters tailored to specific job requirements. The front-end, powered by React.js, provides a user-friendly interface for seamless interaction, while Node.js handles the server-side operations. The application ensures data security through JWT authentication, safeguarding user information throughout the letter generation process. This innovative solution streamlines the job application process by automating the creation of compelling and customized cover letters, enhancing the overall efficiency of job seekers.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: [
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "JWT Authentication",
-    ],
-    category: "web app",
-    github: "https://github.com/giridharansivam/GroupProject",
-    webapp: "",
-  },
-  {
-    id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
-    description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "",
-    webapp: "",
-    member: [
-      
-    ],
-  },
-  
-  
-];
+export const projects = 
+  [
+    {
+      "id": 1,
+      "title": "LinkedIn Clone",
+      "date": "Feb 2023 - Apr 2023",
+      "description": "Developed a full-stack LinkedIn clone web app using React.js, Redux for state management, and Firebase for backend services including authentication, Firestore database, and real-time updates. Implemented features like OAuth authentication, user profile creation, and a dynamic news feed. Deployed on Firebase Hosting with optimized performance and scalability to handle high traffic.",
+      "image": "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "tags": [
+        "React Js",
+        "Redux",
+        "Firebase",
+        "OAuth",
+        "Firestore"
+      ],
+      "category": "web app",
+      "github": "https://github.com/giridharansivam/linkedin-clone",
+      "webapp": "https://linked-in-clone-664c8.web.app"
+    },
+    {
+      "id": 2,
+      "title": "E-Book Shelf",
+      "date": "May 2023 - Jun 2023",
+      "description": "Developed a scalable e-commerce platform using Spring Boot and Spring Security, featuring real-time inventory updates, asynchronous order processing, and secure payments with Stripe and OAuth2 authentication.",
+      "image": "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "tags": [
+        "Spring Boot",
+        "Spring Security",
+        "Stripe",
+        "OAuth2",
+        "MySQL"
+      ],
+      "category": "e-commerce",
+      "github": "https://github.com/giridharansivam/e-book-shelf",
+      "webapp": ""
+    },
+    {
+      "id": 3,
+      "title": "Cover Letter Generator",
+      "date": "Jun 2023 - Jul 2023",
+      "description": "I leveraged the ChatGPT API to develop a dynamic cover letter generator application using a tech stack centered around React.js, Node.js, HTML, CSS, and JavaScript. The application seamlessly integrates with a user's resume and job description inputs, employing sophisticated algorithms to analyze and generate personalized cover letters tailored to specific job requirements. The front-end, powered by React.js, provides a user-friendly interface for seamless interaction, while Node.js handles the server-side operations. The application ensures data security through JWT authentication, safeguarding user information throughout the letter generation process. This innovative solution streamlines the job application process by automating the creation of compelling and customized cover letters, enhancing the overall efficiency of job seekers.",
+      "image": "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "tags": [
+        "CI/CD",
+        "React Js",
+        "MongoDb",
+        "Node Js",
+        "Express Js",
+        "JWT Authentication"
+      ],
+      "category": "web app",
+      "github": "https://github.com/giridharansivam/GroupProject",
+      "webapp": ""
+    }
+  ];
 
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },
