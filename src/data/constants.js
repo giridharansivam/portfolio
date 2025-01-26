@@ -183,7 +183,7 @@ export const experiences = [
     "id": 2,
     "role": "Intern (Full Stack Developer)",
     "company": "Vinca Cyber Tech Pvt. Ltd.",
-    "date": "May 2021 - Oct 2021",
+    "date": "Mar 2021 - Oct 2021",
     "desc": [
       "Developed and maintained a scalable microservices-based architecture using Spring Boot and Spring MVC, enabling modularity and enhancing system reliability by 25%.",
       "Designed custom security filters using Spring Security for granular RBAC with method-level protection, integrated with LDAP and OAuth2 providers for unified authentication across multiple domains.",
