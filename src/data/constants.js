@@ -9,7 +9,7 @@ export const Bio = {
   description:
     "Passionate Software Developer with a focus on Web Development and a knack for optimizing performance. Currently pursuing a Software Engineering Technology Co-op Diploma at Centennial College, where I maintain a GPA of 4.2/4.5. In my recent role at Virtusa Consulting, I excelled in Front-End Development, contributing to a 30% reduction in page load times through performance optimizations. Proficient in JavaScript, ReactJS, and NodeJS, and experienced with various technologies including Java, Python, HTML, CSS, and more.",
   github: "https://github.com/giridharansivam",
-  resume: process.env.PUBLIC_URL + '/Giridharan Paramasivam.pdf',
+  resume: process.env.PUBLIC_URL + '/Resume.pdf',
   linkedin: "https://www.linkedin.com/in/giridharansivam/",
   
 };
