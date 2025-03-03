@@ -241,7 +241,7 @@ export const projects =
         "Firestore"
       ],
       "category": "web app",
-      "github": "https://github.com/giridharansivam/linkedin-clone",
+      "github": "https://github.com/giridharansivam/Linked-in-clone",
       "webapp": "https://linked-in-clone-664c8.web.app"
     },
     {
@@ -258,8 +258,8 @@ export const projects =
         "MySQL"
       ],
       "category": "e-commerce",
-      "github": "https://github.com/giridharansivam/e-book-shelf",
-      "webapp": ""
+      "github": "https://github.com/giridharansivam/e-bookshelf",
+      "webapp": "https://github.com/giridharansivam/e-bookshelf"
     },
     {
       "id": 3,
@@ -277,8 +277,9 @@ export const projects =
       ],
       "category": "web app",
       "github": "https://github.com/giridharansivam/GroupProject",
-      "webapp": ""
+      "webapp": "https://cover-letter-generator-beige.vercel.app/"
     }
+    
   ];
 
 export const TimeLineData = [
