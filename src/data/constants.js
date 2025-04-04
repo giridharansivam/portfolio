@@ -156,51 +156,60 @@ export const skills = [
 export const experiences = [
   {
     "id": 1,
-    "role": "Associate Software Developer (Full Stack Developer)",
+    "role": "Associate Full Stack Developer",
     "company": "Virtusa Consulting Pvt. Ltd.",
     "date": "Nov 2021 - Mar 2023",
     "desc": [
-      "Engineered complex, modular ReactJS applications utilizing Redux for state management, React Suspense for lazy loading, and React Router for dynamic routing, reducing client-side re-rendering by 35%.",
-      "Built scalable REST APIs with Node.js and Express, implementing middleware for request validation, authentication, and error handling, while integrating with third-party services using Axios and Node-fetch.",
-      "Developed secure OAuth 2.0 and OpenID Connect compliant authentication flows, integrating multi-factor authentication (MFA) and Single Sign-On (SSO) for enterprise-level security across web applications.",
-      "Developed and deployed microservices-based architectures with Node.js and Docker, improving scalability by 30%. Leveraged Kubernetes for container orchestration and NGINX for load balancing.",
-      "Optimized database queries and schema design using MongoDB and Mongoose, enabling efficient handling of high-volume data operations and reducing query execution time by 25%.",
-      "Optimized GraphQL APIs with DataLoader to batch and cache requests, resulting in a 40% reduction in redundant database queries and improved API response times."
+      "Engineered scalable web applications using React.js, Next.js, TypeScript, and Redux, leveraging SSR and SSG for performance optimization.",
+      "Built robust backend systems with Node.js and Express.js, optimizing MongoDB queries using indexing strategies and MySQL partitioning.",
+      "Implemented Redis caching with intelligent invalidation, reducing DB queries by 40% and significantly boosting API response time.",
+      "Containerized applications using Docker and orchestrated deployments with Kubernetes for automatic scaling and efficient CI/CD pipelines.",
+      "Secured systems using OAuth2 and JWT-based authentication, and enhanced data integrity with Field-Level Encryption (FLE) and RBAC.",
+      "Introduced modular, reusable components with React and optimized performance using memoization, lazy loading, and dynamic imports."
     ],
     "skills": [
-      "JavaScript",
-      "ReactJS",
-      "NodeJS",
-      "Express JS",
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
       "MongoDB",
-      "GraphQL",
+      "MySQL",
+      "Redis",
       "Docker",
-      "Kubernetes"
+      "Kubernetes",
+      "OAuth2",
+      "JWT",
+      "CI/CD"
     ]
   },
   {
     "id": 2,
-    "role": "Intern (Full Stack Developer)",
+    "role": "Junior Full Stack Developer",
     "company": "Vinca Cyber Tech Pvt. Ltd.",
     "date": "Mar 2021 - Oct 2021",
     "desc": [
-      "Developed and maintained a scalable microservices-based architecture using Spring Boot and Spring MVC, enabling modularity and enhancing system reliability by 25%.",
-      "Designed custom security filters using Spring Security for granular RBAC with method-level protection, integrated with LDAP and OAuth2 providers for unified authentication across multiple domains.",
-      "Developed and consumed 10+ secure RESTful APIs to facilitate data exchange between services and third-party applications.",
-      "Integrated dynamic front-end interfaces using Thymeleaf, HTML, CSS, and JavaScript, improving user engagement and reducing load times by 20%.",
-      "Optimized MySQL database queries, improving data retrieval performance by 15% through advanced indexing and query tuning."
+      "Developed web applications using React.js, TypeScript, Spring Boot, and MySQL, enhancing UI/UX through pixel-perfect responsive design.",
+      "Created dynamic user interfaces based on Figma designs and collaborated with design/backend teams for seamless integration.",
+      "Built REST APIs with Spring Boot and enhanced performance with efficient DB schema design and query optimization.",
+      "Utilized React Hooks, Context API, and React Router to improve frontend speed and maintainability.",
+      "Accelerated feature rollouts by building reusable component libraries and following modular architecture principles."
     ],
     "skills": [
+      "React.js",
+      "TypeScript",
       "Spring Boot",
       "Spring MVC",
-      "Thymeleaf",
       "MySQL",
-      "Java",
-      "HTML",
-      "CSS"
+      "SCSS",
+      "HTML5",
+      "CSS3",
+      "Figma",
+      "REST API"
     ]
   }
-]
+  
+];
 
 
 
