@@ -278,14 +278,57 @@ export const projects =
       "category": "web app",
       "github": "https://github.com/giridharansivam/GroupProject",
       "webapp": "https://cover-letter-generator-beige.vercel.app/"
+    },
+    {
+      "id": 4,
+      "title": "FinFlow",
+      "date": "Jul 2023 - Sep 2023",
+      "description": "Engineered a full-stack financial management platform using Next.js, Appwrite, Plaid, and Dwolla. Implemented secure user authentication with Appwrite, integrated Plaid for real-time financial data access, and used Dwolla to enable seamless payment processing. Designed with scalability and security in mind, ensuring efficient transactions and a smooth user experience across both front-end and back-end layers.",
+      "image": "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "tags": [
+        "Next.js",
+        "Appwrite",
+        "Plaid",
+        "Dwolla",
+        "Full-Stack"
+      ],
+      "category": "web app",
+      "github": "https://github.com/giridharansivam/Banking_NextJS_App",
+      "webapp": "https://banking-next-js-app.vercel.app/sign-in"
+    },
+    {
+      "id": 5,
+      "title": "TutorConnect",
+      "date": "Aug 2023 - Oct 2023",
+      "description": "Developed a mobile-first tutor booking application using React Native and a Flask backend. Enabled functionalities such as class enrollment, appointment booking, session management, and real-time push notifications. Focused on API optimization to ensure scalability and performance across user interactions.",
+      "image": "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "tags": [
+        "React Native",
+        "Flask",
+        "Firebase",
+        "Push Notifications",
+        "REST API"
+      ],
+      "category": "mobile app",
+      "github": "https://github.com/GiridharanParamasivam/comp313-001-Team-6-F24-",
+      "webapp": "https://github.com/GiridharanParamasivam/comp313-001-Team-6-F24-"
+    },
+    {
+      "id": 6,
+      "title": "Bicycle Theft ML Model",
+      "date": "Mar 2023 - Apr 2023",
+      "description": "Built a supervised machine learning model to predict bicycle theft patterns using raw data from the Toronto Police Data Portal. Deployed the model using Flask APIs for integration with web apps and dashboards. Focused on feature engineering, model evaluation, and secure API deployment for real-time inference.",
+      "image": "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "tags": [
+        "Machine Learning",
+        "Flask",
+        "Pandas",
+        "Scikit-learn",
+        "Data Science"
+      ],
+      "category": "machine learning",
+      "github": "https://github.com/hongchit/comp309-001-group6",
+      "webapp": "https://github.com/hongchit/comp309-001-group6"
     }
     
   ];
-
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
